@@ -1,0 +1,652 @@
+
+.top-header {
+    height: 71px;
+    padding: 0 115px;
+}
+
+.logo {
+    float: left;
+    margin: 17px 0;
+}
+
+.login {
+    float: right;
+    padding-top: 27px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.user{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+}
+/*  */
+.Logout {
+    display: inline-block;
+    border: 1px solid #0066B2;
+    padding: 1px 5px;
+    border-radius: 5px;
+    color: #0066B2;
+}
+
+.user i {
+    color: #F27125;
+    padding: 0 20px;
+}
+
+.Logout {
+    border: 1px solid #0066B2;
+    padding: 1px 5px;
+    border-radius: 5px;
+    color: #0066B2;
+}
+
+.Logout i {
+    padding-right: 8px;
+}
+/*  */
+.menu{
+    background-color: #f27125;
+    height: 52px;
+    width: 100%;
+    clear: left;
+}
+.menu ul{
+    line-height: 52px;
+    margin: 0;
+    padding: 0 115px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li.pd70{
+    padding-right: 68px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Profile {
+    border: 1px solid #f27125;
+    background: #f27125;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 14px 16px;
+    margin: 18px 0;
+}
+
+.Profile i {
+    font-size: 28px;
+    padding-right: 10px;
+}
+.Profile p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.Help-Center {
+    border: 1px solid #f27125;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.Help-Center h5 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    background: #f27125;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 15px;
+    margin: 0;
+}
+.TextBox {
+    padding: 16px 18px 0;
+    font-size: 16px;
+}
+
+.TextBox h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.TextBox p {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.container.banner .row .col-12 {
+    height: 495px;
+    display: block;
+    position: relative;
+    margin-top: 18px;
+}
+
+.container.banner .row .col-12 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.title-banner {
+    position: absolute;
+    z-index: 1000;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-top: 110px;
+    padding-left: 30px;
+}
+
+.container.banner .row .col-12 .banner-fpteducation img {
+    position: absolute;
+    z-index: 1000;
+    width: 350px;
+    height: 90px;
+    top: 240px;
+}
+footer {
+    background: #333333;
+    height: 471px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 45px;
+    margin-top: 50px;
+}
+
+footer .container .row .col-4 img {
+    width: 296px;
+    height: 59px;
+}
+.col-4.Copyright p {
+    margin-top: 35px;
+}
+
+.Box h5 {
+    font-size: 16px;
+    color: #f27125;
+    font-weight: 700;
+}
+footer .container .row .col-12 {
+    border-top: 1px solid;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+.Status-Profile {
+    background: #F0F2F5;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 292px;
+}
+
+.Status-Profile h5{
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    padding: 18px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3px;
+}
+
+.border-green i {
+    font-size: 53px;
+    color: #0DB04B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.border-green {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #0DB04B;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20px;
+}
+.name-profile {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+.pic-user-down {
+    text-align: center;
+    padding-left: 118px;
+}
+
+.icon-user i {
+    font-size: 28px;
+    color: #0066B2;
+    padding-bottom: 3px;
+}
+.border-green.approve i {
+    color: #0066B2;
+}
+
+.border-green.approve {
+    border: 1px solid #0066B2;
+}
+.border-green.pending i {
+    color: #BDBDBD;
+}
+
+.border-green.pending {
+    border: 1px solid #BDBDBD;
+}
+.Status-Profile p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.Flex-Box {
+    position: relative;
+    width: 100px;
+}
+
+.border-arrow {
+    width: 55px;
+    border-top: 2px dotted #BDBDBD;
+    position: absolute;
+    top: 29%;
+    left: 109%;
+    transform: translate(-50%, -50%);
+}
+.arrow {
+    margin-left: 49px;
+    color: #BDBDBD;
+    font-size: 14px;
+    position: absolute;
+    top: -8px;
+}
+.Info-Student .form-control{
+    display: inline-block;
+    width: 159px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0 3px;
+}
+.Info-Student .form-group label {
+    min-width: 169px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.Info-Student {
+    background: #F0F2F5;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.title-main {
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px;
+}
+
+.title-main a {
+    float: right;
+    color: #0066B2;
+    font-size: 14px;
+    font-weight: 400;
+}
+.title-main a:hover{
+    text-decoration: none;
+}
+.Info-Student .row {
+    padding: 18px 18px 0 18px;
+}
+.Info-Student .form-group {
+    margin: 0 0 5px 0;
+}
+.Click-Type.flex-container {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.BoxClick {
+    width: 178px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.BoxClick:hover{
+    color: #0066B2;
+    border-bottom: 2px solid #0066B2;
+    transition: 500ms;
+    font-weight: 700;
+}
+.Place.flex-container {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+}
+.container.Scholarship .row .col-7 {
+    margin: 0;
+    padding: 0;
+}
+.col-6.pd0 {
+    padding: 0;
+}
+.Info-Student .row.pd10 {
+    padding-bottom: 50px;
+}
+.border-Upload {
+    height: 105px;
+    text-align: center;
+    padding: 18px;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    background: #D5DCE6;
+    width: 186px;
+}
+
+.container.Scholarship .row .col-7 p {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+button.btnUploadPic {
+    background: #0066B2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.container.TestScholarship .form-group label {
+    min-width: 50px;
+}
+.TestScholarship .row.pd20-center {padding-left: 40px;}
+
+.TestScholarship .row.pd20-center p {
+    margin: 10px 20px;
+    font-size: 14px;
+}
+.container.TestScholarship .btnUploadSchoolRank {
+    font-size: 14px;
+    margin-top: 32px;
+    border: none;
+    background: #0066B2;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 8px;
+}
+
+.container.TestScholarship .form-group .form-control {
+    width: 65px;
+    font-size: 13px;
+    padding: 0px 5px;
+    height: 25px;
+}
+.container.TestScholarship .center {
+    text-align: center;
+}
+
+.container.TestScholarship .center .border-Upload {
+    margin-left: 45px;
+}
+
+.container.TestScholarship .center p {margin: 16px 0;font-size: 14px;text-align: center;}
+.PictureCCCD i {font-size: 55px;margin-top: 45px;margin-left: 40px;color: #828282;}
+
+.PictureCCCD {
+    width: 280px;
+    height: 165px;
+    border: 1px solid #BDBDBD;
+    position: relative;
+    background: #D5DCE6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.PictureCCCD p {width: 60%;display: inline-block;color: gray;padding-left: 18px;}
+
+button.btnCCCD {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    width: 86px;
+    height: 32px;
+    background: #0066B2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.Info-Student .Signin {
+    margin: 0;
+    padding: 0;
+}
+.Info-Student .col-6.pg0 {
+    padding: 0;
+    margin: 0;
+}
+
+.Info-Student .col-6.pg0 p {
+    font-size: 14px;
+}
+.Info-Student .Signin .col-4 {
+    margin: 0;
+    padding: 0;
+}
+
+.Info-Student .Signin .col-4 h5 {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    padding: 15px;
+    border-bottom: 1px solid #BDBDBD;
+}
+.col-4.border-lf-rg {
+    border-left: 1px solid #BDBDBD;
+    border-right: 1px solid #BDBDBD;
+}
+.Info-Student .Signin .col-4 .form-check {
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+.row.Signin .form-check-label {
+    font-size: 14px;
+    font-weight: normal;
+}
+.Info-Student .row.pd0-mg0 {
+    margin: 0;
+    padding: 0;
+}
+
+.Info-Student .col-4.pd0-mg0 {
+    margin: 0;
+    padding: 0;
+}
+
+.Info-Student .col-4.pd0-mg0 p {margin-bottom: 10px;}
+
+.Info-Student .col-8.pd0-mg0 p{
+    margin-bottom: 10px;
+}
+.Cost {
+    background: #F0F2F5;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.Cost .row .col-3.bdbot{
+    border-bottom: 1px solid #BDBDBD;
+    padding: 0px;
+}
+.Cost .row .col-3 p{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px 0 0 18px;
+}
+.Cost .row .col-2.bdbot{
+    border-bottom: 1px solid #BDBDBD;
+    padding: 0px;
+}
+.Cost .row .col-2 p{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+.Cost .row .col-7.bdbot{
+    border-bottom: 1px solid #BDBDBD;
+    padding: 0px;
+}
+.Cost .row .col-7 a{
+    font-size: 14px;
+    font-weight: 400;
+}
+.Cost .row {
+    margin: 0;
+    padding: 0;
+}
+.Cost01 .bdCost01 {
+    width: 140px;
+    height: 215px;
+    background: #D5DCE5;
+    margin: 20px 0 0 20px;
+    border-radius: 5px;
+}
+
+.Cost01 .bdCost01 i {
+    text-align: center;
+    font-size: 95px;
+    color: #828282;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.Cost01 .bdCost02 {
+    width: 110px;
+    height: 216px;
+    background: #D5DCE5;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.Cost01 .bdCost02 img {
+    width: 80px;
+    height: 55px;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+button.btnUploadCost01 {
+    margin-left: 45px;
+    background: #0066B2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 108px;
+    height: 30px;
+}
+.Cost01 .btnUploadCost02 {
+    background: #0066B2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 108px;
+    height: 30px;
+}
+.Cost .title14 {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 55px;
+}
+
+.Cost .title14 p {
+    margin: 0;
+}
+.Cost .title14 {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 55px;
+}
+
+.Cost .title14 p {
+    margin: 0px 0 5px 0;
+}
+
+.Cost .title14 p.RedColor {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Cost .title14 p.BoldColor {
+    font-weight: bold;
+}
+.row.pd0-mg0-bd0 {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.row.pd0-mg0-bd0 .form-control {
+    width: 360px;
+    height: 30px;
+}
+
+button.btnUploadCard {
+    border: none;
+    background: #0066B2;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.input-group.add-on.alert.alert-dismissable.mg0-pd0 {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    position: relative;
+}
+.input-group-btn {
+    position: absolute;
+    top: 0;
+    right: 3px;
+}
+button.btn.btn-outline-danger {
+    border-left-width: 1 !important;
+    font-size: 11px;
+    padding: 2px 7px;
+    margin: 4px;
+}
+/* Xử lý sự kiện ẩn textbox */
+.add-on .input-group-btn > .btn {
+    border-left-width:0;left:-2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+
